@@ -1,0 +1,22 @@
+{
+    "name": "hexlet/code",
+	"description": "Description for composer",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MiranaM",
+            "email": "0resama@mail.ru"
+        }
+    ],
+	"bin": [
+		"bin/brain-games"
+	],
+	"license": "MIT",
+    "require": {
+		"php": ">=7.4"
+	}
+}
