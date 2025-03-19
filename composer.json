@@ -1,10 +1,13 @@
 {
     "name": "hexlet/code",
 	"description": "Description for composer",
-    "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
+	"autoload": {
+		"psr-4": {
+			"BrainGames\\": "src/"
+		},
+        "files": [
+            "src/Cli.php"
+          ]
     },
     "authors": [
         {
@@ -17,6 +20,7 @@
 	],
 	"license": "MIT",
     "require": {
-		"php": ">=7.4"
+		"php": ">=7.4",
+        "wp-cli/php-cli-tools": "^0.12.1"
 	}
 }
