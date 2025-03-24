@@ -21,3 +21,6 @@
 <li>Позиция спрятанного элемента каждый раз изменяется (выбирается случайным образом).</li>
 </ul>
 <a href="https://asciinema.org/a/RWtZ1gO6GfKzVGOZDhlqiXrHF" target="_blank"><img src="https://asciinema.org/a/RWtZ1gO6GfKzVGOZDhlqiXrHF.svg" /></a>
+
+</p>Игра "Простое ли число?"
+<a href="https://asciinema.org/a/o0t1z7BnnBoiWmdCZMVX37lpx" target="_blank"><img src="https://asciinema.org/a/o0t1z7BnnBoiWmdCZMVX37lpx.svg" /></a>
