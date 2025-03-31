@@ -23,7 +23,7 @@ function getProgressionQuestionAnswer(): array
     $step = rand(2, 5);
     $length = rand(PROGRESSION_MIN_LENGTH, PROGRESSION_MAX_LENGTH);
     $progression = generateProgression($start, $step, $length);
-    
+
     $hiddenIndex = rand(0, $length - 1);
     $correctAnswer = (string) $progression[$hiddenIndex];
     $progression[$hiddenIndex] = '..';
