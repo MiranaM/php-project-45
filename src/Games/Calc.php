@@ -30,7 +30,7 @@ function getCalcQuestionAnswer(): array
     return [$question, (string) $correctAnswer];
 }
 
-function playCalc()
+function playCalc(): void
 {
     runGame(DESCRIPTION, fn() => getCalcQuestionAnswer());
 }

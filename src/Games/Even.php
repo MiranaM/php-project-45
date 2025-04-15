@@ -11,7 +11,7 @@ function getEvenGameData(): array
     return [$question, $correctAnswer];
 }
 
-function runBrainEven()
+function runBrainEven(): void
 {
     $description = 'Answer "yes" if the number is even, otherwise answer "no".';
     runGame($description, fn() => getEvenGameData());
