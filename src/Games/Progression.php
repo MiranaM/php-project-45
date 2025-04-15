@@ -5,6 +5,7 @@ namespace BrainGames\Games;
 use function BrainGames\Engine\runGame;
 
 const PROGRESSION_DESCRIPTION = 'What number is missing in the progression?';
+
 const PROGRESSION_MIN_LENGTH = 5;
 const PROGRESSION_MAX_LENGTH = 10;
 

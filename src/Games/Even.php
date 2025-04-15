@@ -4,7 +4,9 @@ namespace BrainGames\Games\Even;
 
 use function BrainGames\Engine\runGame;
 
-function getEvenGameData(): array
+const EVEN_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+function getEvenGameAnswer(): array
 {
     $question = rand(1, 100);
     $correctAnswer = ($question % 2 === 0) ? 'yes' : 'no';
@@ -13,6 +15,5 @@ function getEvenGameData(): array
 
 function runBrainEven(): void
 {
-    $description = 'Answer "yes" if the number is even, otherwise answer "no".';
-    runGame($description, fn() => getEvenGameData());
+    runGame(EVEN_DESCRIPTION, fn() => getEvenGameAnswer());
 }

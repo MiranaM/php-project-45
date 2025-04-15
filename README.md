@@ -4,7 +4,7 @@
 
 </p>Игра: "Проверка на чётность"
 </p>Необходимо реализовать игру "Проверка на чётность". Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
-<a href="https://asciinema.org/a/uDJOFjY7qht6TWoJ6eB1Mi6BM" target="_blank"><img src="https://asciinema.org/a/uDJOFjY7qht6TWoJ6eB1Mi6BM.svg" /></a>
+<a href="https://asciinema.org/a/mW7vkZIFAlyQbDL8mknwiPjTB" target="_blank"><img src="https://asciinema.org/a/mW7vkZIFAlyQbDL8mknwiPjTB.svg" /></a>
 
 </p>Игра: "Калькулятор"
 </p>Необходимо реализовать игру "Калькулятор". Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
