@@ -34,4 +34,3 @@ function playCalc()
 {
     runGame(DESCRIPTION, fn() => getCalcQuestionAnswer());
 }
-
