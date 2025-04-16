@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games;
+namespace BrainGames\Games\Calc;
 
 use function BrainGames\Engine\runGame;
 
@@ -30,7 +30,7 @@ function getCalcQuestionAnswer(): array
     return [$question, (string) $correctAnswer];
 }
 
-function playCalc(): void
+function playCalcGame(): void
 {
     runGame(CALC_DESCRIPTION, fn() => getCalcQuestionAnswer());
 }

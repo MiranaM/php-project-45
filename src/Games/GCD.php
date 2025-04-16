@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games;
+namespace BrainGames\Games\Gcd;
 
 use function BrainGames\Engine\runGame;
 
@@ -11,7 +11,7 @@ function gcd(int $a, int $b): int
     return $b === 0 ? $a : gcd($b, $a % $b);
 }
 
-function getQuestionAnswer(): array
+function getGcdQuestionAnswer(): array
 {
     $num1 = rand(1, 100);
     $num2 = rand(1, 100);
@@ -23,5 +23,5 @@ function getQuestionAnswer(): array
 
 function playGcdGame(): void
 {
-    runGame(GCD_DESCRIPTION, fn() => getQuestionAnswer());
+    runGame(GCD_DESCRIPTION, fn() => getGcdQuestionAnswer());
 }
